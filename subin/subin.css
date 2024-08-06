@@ -1,0 +1,83 @@
+body {
+     margin: 0;
+     background-color: whitesmoke;
+}
+
+.header {
+    display: flex;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.logo {
+    position: relative;
+    left: 30px;
+    font-size: 20px;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    position: relative;
+    transform: translateX(-50%);
+    align-items: center;
+    left: 50%;
+}
+
+.menu:hover {
+    cursor: pointer;
+}
+
+.home:hover, .portfolio:hover, .story:hover, .idea:hover, .contact:hover {
+    animation: text 1s;
+}
+
+@keyframes text {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+a:link {
+    list-style: none;
+    color: whitesmoke;
+    text-decoration-line: none;
+}
+
+a {
+    color: white;
+}
+
+table {
+    position: relative;
+    transform: translate(-50%);
+    padding: 20px;
+    width: 500px;
+    left: 50%;
+    margin-top: 100px;
+    background: rgb(0, 0, 0);
+    color: whitesmoke;
+    font-size: 11px;
+    justify-content: center;
+    display: flex;
+    overflow-y: auto;
+}
+
+th {
+    padding-right: 25px;
+   
+}
+
+td {
+    border-bottom: none;
+    /* border-bottom: 1px solid rgba(245, 245, 245, 0.137); */
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
