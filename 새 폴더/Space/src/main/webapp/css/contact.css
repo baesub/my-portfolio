@@ -1,0 +1,46 @@
+.contact-sns {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+
+.contact-sns a {
+
+
+	text-align:center;
+  
+  color: #fff;
+}
+
+.contact-sns li {
+  background-color: #000;
+  border: 1px solid whitesmoke;
+  border-radius: 50%;
+  padding:1rem;
+  margin: 1rem;
+  list-style: none;
+}
+
+li {
+  width: 100px;
+  cursor: pointer;
+}
+
+i.fa-brands.fa-github, i.fa-brands.fa-php, i.fa-brands.fa-js  {
+  font-size: 19px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.contact-sns li:hover {
+	
+  background-color: whitesmoke;
+	color: black;
+}
+
+.contact-sns li a:hover {
+  
+}
